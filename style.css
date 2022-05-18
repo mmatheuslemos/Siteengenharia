@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+   
 }
 
 .menuhome {
@@ -35,21 +36,15 @@ a{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 400px;
+    height: auto;
 }
 
-.text{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    width: 100%;
-    background-color: rgb(214, 173, 173);
-    height: 100px;
-    text-align: center;
-}
+
 
 .images{
+    background-color: rgb(226, 226, 226);
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
@@ -57,13 +52,65 @@ a{
 }
 
 .ima{
-    border: 10px solid goldenrod;
-    background-color: blueviolet;
-    width: 400px;
-    height: 300px;
+    
+    border: 10px solid rgb(0, 0, 0);
+  
 }
 
 img{
    width: 400px;
    height: 300px;
+}
+.titule{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 120px;
+    align-items: center;
+}
+h1{ 
+    font-family: 'Times New Roman';
+    background-color: rgb(0, 0, 0);
+    color: white;
+    width: 80%;
+    text-align: center;
+    border-right: 10px black solid;
+    border-radius: 20px;
+    
+}
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(Fontes/Rainbow\ in\ June.ttf);
+  }
+
+h2{
+    
+}
+
+.Parte2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    height: 300px;
+    
+}
+p1{
+    display: flex;
+    justify-content: center;
+    font-family: myFirstFont;
+    font-size: 20px;
+    color: white;
+    align-items: center;
+    text-align: left;
+    width: 700px;
+    height: 200px;
+    background-color: rgb(0, 0, 0);
+
+}
+h3{
+    font-size: 40px;
+    padding-right: 100px;
 }
